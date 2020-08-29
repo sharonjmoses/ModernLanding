@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+}
+
+img{
+    max-width: 100%;
+    display:block;
+}
+
+h1,
+h2,
+h3,
+p{
+    margin:0;
+}
+
+.container {
+    width: 85%;
+    max-width: 65em;
+    margin: 0 auto;
+}
+
+.btn{
+    color:black;
+    background: gray;
+    
+}
